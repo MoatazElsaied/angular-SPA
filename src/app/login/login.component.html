@@ -1,0 +1,36 @@
+<!--start main-->
+<main>
+    <!--Start register-pg -->
+    <section class="register-pg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 m-auto">
+                    <div class="form-wrapper">
+                        <form>
+                            <div class="heading text-center mb-5">
+                                <h4 class="h4">Sign in</h4>
+                                <p class="another-register"> Have Not Account ? <a routerLink="register">Sign up</a>
+                                </p>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" autocomplete="off" autofocus required />
+                                <label class="floating-label"> Email Address </label>
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" id="password" autocomplete="off" autofocus required />
+                                <label class="floating-label"> Password </label>
+                                <span class="togglePassword"><i class="fas fa-eye" id="togglePassword"></i></span>
+                            </div>
+                            <div class="text w-100">
+                                <a class="forget-pass" routerLink="recover-mail"> Fogrt Password ?</a>
+                            </div>
+                            <a routerLink="index" class="submit-btn"> Log in </a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="assets/image/pattern-3.png" alt="" class="pattern">
+    </section>
+</main>
+<!--end main-->
